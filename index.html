@@ -2,19 +2,37 @@
 <html lang="pt-br">
     <head>
         <title>Aprendendo HTML</title>
-        <meta charset="UTF-8"
+        <meta charset="UTF-8">
+        <style>
+            .intro{
+                font-family: Helvetica, sans-serif;
+            }
+            body {
+                background-color: rgb(254, 208, 187);
+                color: black;
+            }
+            .nacionalidade {
+                font-weight: 700;
+            }
+            .skills-list {
+                font-size: large;
+            }
+        </style>
     </head>
     <body>
-        <p> Meu nome é Leonardo Martins</p>
-        <img id="foto" src="https://media.licdn.com/dms/image/C4D03AQGLC5BsQHbXkg/profile-displayphoto-shrink_800_800/0/1626440147583?e=1679529600&v=beta&t=RuO8NqzGtIve1GYKm96N79Tb-3ZQnjsCddweNnW4ZSg"
-                width="300px"
-                alt="Foto minha">
-        <p id="descricao">Eu tenho 25 anos de idade e estou em transição de carreira. Sou brasileiro e moro em São Paulo.
-        <br>Gosto de videogames e de programação.</p>
-        <h3 id="habilidades"><strong>Aqui estão algumas das minhas habilidades:</strong></h3>
-        <ul>Videogames</ul>
-        <ul>Programação</ul>
-        <ul>Adaptabilidade</ul>
+        <div class="intro">
+            <p> Meu nome é Leonardo Martins</p>
+            <img id="foto" src="https://media.licdn.com/dms/image/C4D03AQGLC5BsQHbXkg/profile-displayphoto-shrink_800_800/0/1626440147583?e=1679529600&v=beta&t=RuO8NqzGtIve1GYKm96N79Tb-3ZQnjsCddweNnW4ZSg"
+                    width="300px"
+                    alt="Foto minha">
+            <p id="descricao">Eu tenho 25 anos de idade e estou em transição de carreira.<span class="nacionalidade"> Sou brasileiro e moro em São Paulo.</span></p>
+        </div>
+        <h3><strong>Aqui estão algumas das minhas habilidades:</strong></h3>
+        <ul class="skills-list">
+            <li>Videogames</li>
+            <li>Programação</li>
+            <li>Adaptabilidade</li>
+        </ul>
         <p><a href="#foto" target="_blank"><em>Link para minha foto </em></a></p>
         <p id="blog"><a href="https://techcrunch.com/" target="_blank"> <em>Link para um ótimo site de notícias sobre tecnologia</em></a></p><br><br>
         <p><strong>Índice para diferentes partes do meu portfólio</strong></p>
